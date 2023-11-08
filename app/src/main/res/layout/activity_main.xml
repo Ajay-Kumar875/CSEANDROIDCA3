@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Locate Me"
+        android:textColor="#CC58E5C2"
+        android:textStyle="bold"
+        android:textAppearance="@color/material_dynamic_secondary90"
+        android:textSize="64sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loc1"
+        android:layout_marginTop="250dp"/>
+
+
+
+
+
+</RelativeLayout>
